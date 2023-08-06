@@ -2,16 +2,16 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-home',
+  selector: 'app-housing-location',
   standalone: true,
   imports: [CommonModule],
   template: `
     <p>
-      home works!
+      housing-location works!
     </p>
   `,
-  styleUrls: ['./home.component.scss']
+  styleUrls: ['./housing-location.component.css']
 })
-export class HomeComponent {
+export class HousingLocationComponent {
 
 }
